@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="GemBox.Spreadsheet" Version="47.0.1268" />
+      <PackageReference Include="GitHub" Version="1.34.0" />
+      <PackageReference Include="NLog" Version="5.0.0-preview.1" />
+      <PackageReference Include="NLog.Config" Version="4.7.11" />
+      <PackageReference Include="NLog.Extensions.Logging" Version="5.0.0-preview.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="obj\Movies.csv" />
+      <Content Include="obj\NLog.config.xml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="obj\NLog.config" />
+    </ItemGroup>
+
+</Project>

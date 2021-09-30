@@ -1,0 +1,16 @@
+2021-09-27 16:51:17.0890|INFO|MovieLibrary.MainClass|Program started
+2021-09-27 16:51:17.1280|INFO|MovieLibrary.MovieFile|Movies in file 9125
+2021-09-27 16:51:18.6384|INFO|MovieLibrary.MainClass|User choice: "2"
+2021-09-27 16:58:46.6632|INFO|MovieLibrary.MainClass|Program started
+2021-09-27 16:58:46.6899|ERROR|MovieLibrary.MovieFile|Could not find a part of the path 'C:\bin\Debug\net5.0\movies.csv'.
+2021-09-27 17:01:07.4279|INFO|MovieLibrary.MainClass|Program started
+2021-09-27 17:01:07.4603|ERROR|MovieLibrary.MovieFile|Could not find a part of the path 'C:\Users\PyroOfEvil\RiderProjects\MovieLibrary\MovieLibrary\bin\Debug\net5.0\MovieLibrary\bin\Debug\net5.0\movies.csv'.
+2021-09-27 17:01:33.3922|INFO|MovieLibrary.MainClass|Program started
+2021-09-27 17:01:35.6847|ERROR|MovieLibrary.MovieFile|The network path was not found. : '\\bin\Debug\net5.0\movies.csv'
+2021-09-27 17:03:42.4828|INFO|MovieLibrary.MainClass|Program started
+2021-09-27 17:03:42.5091|ERROR|MovieLibrary.MovieFile|Could not find file 'C:\Users\PyroOfEvil\RiderProjects\MovieLibrary\MovieLibrary\bin\Debug\net5.0\movies.csv'.
+2021-09-27 17:03:51.1220|INFO|MovieLibrary.MainClass|Program started
+2021-09-27 17:03:51.1477|ERROR|MovieLibrary.MovieFile|Could not find file 'C:\Users\PyroOfEvil\RiderProjects\MovieLibrary\MovieLibrary\bin\Debug\net5.0\movies.csv'.
+2021-09-27 17:05:32.3506|INFO|MovieLibrary.MainClass|Program started
+2021-09-27 17:05:32.3866|INFO|MovieLibrary.MovieFile|Movies in file 9125
+2021-09-27 17:05:40.9528|INFO|MovieLibrary.MainClass|User choice: "2"

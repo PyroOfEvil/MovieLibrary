@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "d2KlQjRpjZW3IKbpwXUpTM4Hd/CqvIf/U3Z+pJc8RuzoY3eDswm3I0NgboF2DM7mq0LhUTsep7rf/DjvCIc3tA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PyroOfEvil\\RiderProjects\\MovieLibrary\\MovieLibrary\\MovieLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\carbon.data.protection\\1.5.0\\carbon.data.protection.1.5.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\carbon.packaging\\1.50.0\\carbon.packaging.1.50.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\carbon.storage\\3.0.1\\carbon.storage.3.0.1.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\carbon.versioncontrol\\2.6.0\\carbon.versioncontrol.2.6.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\carbon.versioning\\2.0.1\\carbon.versioning.2.0.1.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\gembox.spreadsheet\\47.0.1268\\gembox.spreadsheet.47.0.1268.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\github\\1.34.0\\github.1.34.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\5.0.0\\microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\nlog\\5.0.0-preview.1\\nlog.5.0.0-preview.1.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\nlog.config\\4.7.11\\nlog.config.4.7.11.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\nlog.extensions.logging\\5.0.0-preview.1\\nlog.extensions.logging.5.0.0-preview.1.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\nlog.schema\\4.7.11\\nlog.schema.4.7.11.nupkg.sha512",
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512"
+  ],
+  "logs": []
+}

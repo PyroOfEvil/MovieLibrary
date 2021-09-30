@@ -1,0 +1,664 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "Carbon.Data.Protection/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Carbon.Data.Protection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Data.Protection.dll": {}
+        }
+      },
+      "Carbon.Packaging/1.50.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Data.Protection": "1.5.0",
+          "Carbon.Storage": "3.0.1",
+          "Carbon.Versioning": "2.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Carbon.Packaging.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Packaging.dll": {}
+        }
+      },
+      "Carbon.Storage/3.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Carbon.Storage.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Storage.dll": {}
+        }
+      },
+      "Carbon.VersionControl/2.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Storage": "3.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Carbon.VersionControl.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.VersionControl.dll": {}
+        }
+      },
+      "Carbon.Versioning/2.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Carbon.Versioning.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Carbon.Versioning.dll": {}
+        }
+      },
+      "GemBox.Spreadsheet/47.0.1268": {
+        "type": "package",
+        "dependencies": {
+          "Portable.BouncyCastle": "1.8.9"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/GemBox.Spreadsheet.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/GemBox.Spreadsheet.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp3.1/GemBox.Spreadsheet.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          }
+        }
+      },
+      "GitHub/1.34.0": {
+        "type": "package",
+        "dependencies": {
+          "Carbon.Packaging": "1.50.0",
+          "Carbon.VersionControl": "2.6.0"
+        },
+        "compile": {
+          "lib/net5.0/GitHub.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/GitHub.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "5.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Options": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Options/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Extensions.Options.dll": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {}
+        }
+      },
+      "NLog/5.0.0-preview.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {}
+        }
+      },
+      "NLog.Config/4.7.11": {
+        "type": "package",
+        "dependencies": {
+          "NLog": "4.7.11",
+          "NLog.Schema": "4.7.11"
+        },
+        "contentFiles": {
+          "contentFiles/any/any/NLog.config": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": true,
+            "outputPath": "NLog.config"
+          }
+        }
+      },
+      "NLog.Extensions.Logging/5.0.0-preview.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Logging": "5.0.0",
+          "NLog": "5.0.0-preview.1"
+        },
+        "compile": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/NLog.Extensions.Logging.dll": {}
+        }
+      },
+      "NLog.Schema/4.7.11": {
+        "type": "package",
+        "contentFiles": {
+          "contentFiles/any/any/_._": {
+            "buildAction": "None",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
+        }
+      },
+      "Portable.BouncyCastle/1.8.9": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/BouncyCastle.Crypto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Carbon.Data.Protection/1.5.0": {
+      "sha512": "3/+PcHtuKgBotHII1Dth0SLBhNDvu2oCec0QdlRus/oHyr25BpfyhvV7h84hWP4UQQjmvymQwM0f7jLy0Vr86w==",
+      "type": "package",
+      "path": "carbon.data.protection/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.data.protection.1.5.0.nupkg.sha512",
+        "carbon.data.protection.nuspec",
+        "lib/net5.0/Carbon.Data.Protection.dll",
+        "lib/netstandard2.1/Carbon.Data.Protection.dll"
+      ]
+    },
+    "Carbon.Packaging/1.50.0": {
+      "sha512": "w8QyiBSWSqgpTWmWSYe1jJHPa20i+pd+tPT0qFWvv0gsYuPkBU6zEbH9e6Y1Xr7HdT0SFEF80neWYKy0Y6yODA==",
+      "type": "package",
+      "path": "carbon.packaging/1.50.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.packaging.1.50.0.nupkg.sha512",
+        "carbon.packaging.nuspec",
+        "lib/net5.0/Carbon.Packaging.dll",
+        "lib/netstandard2.1/Carbon.Packaging.dll"
+      ]
+    },
+    "Carbon.Storage/3.0.1": {
+      "sha512": "cymUDZ3EOryvSZEG9R8aK1Q42bbmBAoh8NX+mZdXar6AqzbUiw3rC8EmDbleRl/3l+7cpVd/TDFGxZsslfPqpA==",
+      "type": "package",
+      "path": "carbon.storage/3.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.storage.3.0.1.nupkg.sha512",
+        "carbon.storage.nuspec",
+        "lib/net5.0/Carbon.Storage.dll",
+        "lib/netcoreapp3.1/Carbon.Storage.dll",
+        "lib/netstandard2.0/Carbon.Storage.dll",
+        "lib/netstandard2.1/Carbon.Storage.dll"
+      ]
+    },
+    "Carbon.VersionControl/2.6.0": {
+      "sha512": "oo+oCdcRwrwjn/4I8CwzrDjH+vcTGvr9QPjJp4HFWAba3ahWiZhCWhioumbmBxnetLENGq6w64TC/xSNwecZbg==",
+      "type": "package",
+      "path": "carbon.versioncontrol/2.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.versioncontrol.2.6.0.nupkg.sha512",
+        "carbon.versioncontrol.nuspec",
+        "lib/net5.0/Carbon.VersionControl.dll",
+        "lib/netstandard2.1/Carbon.VersionControl.dll"
+      ]
+    },
+    "Carbon.Versioning/2.0.1": {
+      "sha512": "sb5wO/BgMAMvUX6gf41h7Qhl5BkbDZbGiZxm8krEq/cNbpnH+kWlo9TJmTk/5XBB+K97xzgpk2VkBedmEl1Ewg==",
+      "type": "package",
+      "path": "carbon.versioning/2.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carbon.versioning.2.0.1.nupkg.sha512",
+        "carbon.versioning.nuspec",
+        "lib/net5.0/Carbon.Versioning.dll",
+        "lib/netstandard2.0/Carbon.Versioning.dll"
+      ]
+    },
+    "GemBox.Spreadsheet/47.0.1268": {
+      "sha512": "ilg1nZIBeMvjRjiuBexRDnc+mnyIQosFmWrCHMgfEdwOVuYQ4ZrFJB9gNLjc2sb973lQChUI3v05AOrudEPldg==",
+      "type": "package",
+      "path": "gembox.spreadsheet/47.0.1268",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "PackageIcon.png",
+        "README.md",
+        "Readme.txt",
+        "gembox.spreadsheet.47.0.1268.nupkg.sha512",
+        "gembox.spreadsheet.nuspec",
+        "lib/net35/GemBox.Spreadsheet.dll",
+        "lib/net35/GemBox.Spreadsheet.xml",
+        "lib/netcoreapp3.1/GemBox.Spreadsheet.dll",
+        "lib/netcoreapp3.1/GemBox.Spreadsheet.xml",
+        "lib/netstandard2.0/GemBox.Spreadsheet.dll",
+        "lib/netstandard2.0/GemBox.Spreadsheet.xml",
+        "licenses/EULA.txt",
+        "licenses/ThirdPartyCodeLicenses/DotNetZip License.txt",
+        "licenses/ThirdPartyCodeLicenses/ExCSS License.txt",
+        "licenses/ThirdPartyCodeLicenses/NPOI License.txt",
+        "licenses/ThirdPartyCodeLicenses/PDFsharp and MigraDoc License.txt",
+        "licenses/ThirdPartyCodeLicenses/Portable.Text.Encoding License.txt",
+        "licenses/ThirdPartyCodeLicenses/SVG.NET License.txt",
+        "runtimes/unix/lib/netcoreapp3.1/GemBox.Spreadsheet.dll"
+      ]
+    },
+    "GitHub/1.34.0": {
+      "sha512": "X+Rn0rMMBdxlaFIL/cZAowKcnU29/oNZ9c3p61yvgJ962LmFUjlF7c2rtqbWMmOjoWxWfdoGygc2EwIPSDUQng==",
+      "type": "package",
+      "path": "github/1.34.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "github.1.34.0.nupkg.sha512",
+        "github.nuspec",
+        "lib/net5.0/GitHub.dll",
+        "lib/netstandard2.1/GitHub.dll"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+      "sha512": "ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/5.0.0": {
+      "sha512": "Rc2kb/p3Ze6cP6rhFC3PJRdWGbLvSHZc0ev7YlyeU6FmHciDMLrhoVoTUEzKPhN5ZjFgKF1Cf5fOz8mCMIkvpA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net5.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/5.0.0": {
+      "sha512": "ORj7Zh81gC69TyvmcUm9tSzytcy8AVousi+IVRAI8nLieQjOFryRusSFh7+aLk16FN9pQNqJAiMd7BTKINK0kA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging/5.0.0": {
+      "sha512": "MgOwK6tPzB6YNH21wssJcw/2MKwee8b2gI7SllYfn6rvTpIrVvVS5HAjSU2vqSku1fwqRvWP0MdIi14qjd93Aw==",
+      "type": "package",
+      "path": "microsoft.extensions.logging/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.dll",
+        "lib/net461/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Logging.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Logging.xml",
+        "microsoft.extensions.logging.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Logging.Abstractions/5.0.0": {
+      "sha512": "NxP6ahFcBnnSfwNBi2KH2Oz8Xl5Sm2krjId/jRR3I7teFphwiUoUeZPwTNA21EX+5PtjqmyAvKaOeBXcJjcH/w==",
+      "type": "package",
+      "path": "microsoft.extensions.logging.abstractions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.Logging.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
+        "microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/5.0.0": {
+      "sha512": "CBvR92TCJ5uBIdd9/HzDSrxYak+0W/3+yxrNg8Qm6Bmrkh5L+nu6m3WeazQehcZ5q1/6dDA7J5YdQjim0165zg==",
+      "type": "package",
+      "path": "microsoft.extensions.options/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/net5.0/Microsoft.Extensions.Options.dll",
+        "lib/net5.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.5.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "sha512": "cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Primitives.dll",
+        "lib/net461/Microsoft.Extensions.Primitives.xml",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "NLog/5.0.0-preview.1": {
+      "sha512": "1K6pDap1HOTMFyvVbzp0ygPw8013IXmMyXugfMWVI56GmcdUNFvFhvyT1QaDZ5SZSY9Kbu9CUiN4Wt1jkVmYdw==",
+      "type": "package",
+      "path": "nlog/5.0.0-preview.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/net46/NLog.dll",
+        "lib/net46/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "nlog.5.0.0-preview.1.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NLog.Config/4.7.11": {
+      "sha512": "p9N8dsMVdyXNN+KU2BsBFZ1aR+usL8JWPKe1YuXlKjPEQsltYO43tajlkX2Kilai+PAE1zw9UC8AaBq5r78x3A==",
+      "type": "package",
+      "path": "nlog.config/4.7.11",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NLog.config",
+        "contentFiles/any/any/NLog.config",
+        "nlog.config.4.7.11.nupkg.sha512",
+        "nlog.config.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "NLog.Extensions.Logging/5.0.0-preview.1": {
+      "sha512": "0sSnERf0AQVtwdFc94bpe3FzDFVuQpfOmQLiCks0QI6rKh6xeIBCDxQ9PhJogxNWyxGJ7Wf1Du4By4O1LIQIFw==",
+      "type": "package",
+      "path": "nlog.extensions.logging/5.0.0-preview.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "N.png",
+        "lib/net461/NLog.Extensions.Logging.dll",
+        "lib/net461/NLog.Extensions.Logging.xml",
+        "lib/net5.0/NLog.Extensions.Logging.dll",
+        "lib/net5.0/NLog.Extensions.Logging.xml",
+        "lib/netcoreapp3.0/NLog.Extensions.Logging.dll",
+        "lib/netcoreapp3.0/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.3/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.3/NLog.Extensions.Logging.xml",
+        "lib/netstandard1.5/NLog.Extensions.Logging.dll",
+        "lib/netstandard1.5/NLog.Extensions.Logging.xml",
+        "lib/netstandard2.0/NLog.Extensions.Logging.dll",
+        "lib/netstandard2.0/NLog.Extensions.Logging.xml",
+        "nlog.extensions.logging.5.0.0-preview.1.nupkg.sha512",
+        "nlog.extensions.logging.nuspec"
+      ]
+    },
+    "NLog.Schema/4.7.11": {
+      "sha512": "9mmj/hApaSmX9jP2PxLyqywesdEI1nIT2TVWgsdoqb1yIpxvUM+1b6aMD2zJkpGN8y71jmVO2d/FKTwQXIfpSw==",
+      "type": "package",
+      "path": "nlog.schema/4.7.11",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "content/NLog.xsd",
+        "contentFiles/any/any/NLog.xsd",
+        "nlog.schema.4.7.11.nupkg.sha512",
+        "nlog.schema.nuspec"
+      ]
+    },
+    "Portable.BouncyCastle/1.8.9": {
+      "sha512": "wlJo8aFoeyl+W93iFXTK5ShzDYk5WBqoUPjTNEM0Xv9kn1H+4hmuCjF0/n8HLm9Nnp1aY6KNndWqQTNk+NGgRQ==",
+      "type": "package",
+      "path": "portable.bouncycastle/1.8.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/BouncyCastle.Crypto.dll",
+        "lib/net40/BouncyCastle.Crypto.xml",
+        "lib/netstandard2.0/BouncyCastle.Crypto.dll",
+        "lib/netstandard2.0/BouncyCastle.Crypto.xml",
+        "portable.bouncycastle.1.8.9.nupkg.sha512",
+        "portable.bouncycastle.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "GemBox.Spreadsheet >= 47.0.1268",
+      "GitHub >= 1.34.0",
+      "NLog >= 5.0.0-preview.1",
+      "NLog.Config >= 4.7.11",
+      "NLog.Extensions.Logging >= 5.0.0-preview.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\PyroOfEvil\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\PyroOfEvil\\RiderProjects\\MovieLibrary\\MovieLibrary\\MovieLibrary.csproj",
+      "projectName": "MovieLibrary",
+      "projectPath": "C:\\Users\\PyroOfEvil\\RiderProjects\\MovieLibrary\\MovieLibrary\\MovieLibrary.csproj",
+      "packagesPath": "C:\\Users\\PyroOfEvil\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PyroOfEvil\\RiderProjects\\MovieLibrary\\MovieLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\PyroOfEvil\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "GemBox.Spreadsheet": {
+            "target": "Package",
+            "version": "[47.0.1268, )"
+          },
+          "GitHub": {
+            "target": "Package",
+            "version": "[1.34.0, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[5.0.0-preview.1, )"
+          },
+          "NLog.Config": {
+            "target": "Package",
+            "version": "[4.7.11, )"
+          },
+          "NLog.Extensions.Logging": {
+            "target": "Package",
+            "version": "[5.0.0-preview.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
